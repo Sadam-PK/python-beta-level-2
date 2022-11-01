@@ -177,7 +177,7 @@ create table
 #         std_id = add_student(conn, student)
 #     add_student(conn, student)
 #
-#     print(f'Student ID is {std_id}')
+#     print(f'Student ID is {std_id}'))
 #     close_connection(conn)
 #
 #
