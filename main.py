@@ -1,5 +1,7 @@
+import requests
 # import inspect
 # import os
+# import csv
 #
 # ############### Date time ############
 # from datetime import datetime
@@ -101,13 +103,9 @@
 #
 # inspect.getmembers(stringVar)
 #
-
-"""
-create connection
-close connection
-create table
-
-"""
+# import csv
+###############################################
+################ SQlite #########################
 #
 # import sqlite3
 # from sqlite3 import Error
@@ -197,3 +195,64 @@ create table
 #
 #
 # read_student()
+
+
+###############################################
+################ CSV #########################
+
+# import csv
+
+#
+# file = '/home/sadam/python/python-beta-level-2/score.csv'
+# data = [('Ali', 56), ('Asad', 44), ('Ahmed', 66), ]
+# writer = csv.writer(open(file, 'w', newline=''))
+# for row in data:
+#     writer.writerow(row)
+
+# ------- comment write function before running read function --------------
+
+# file = '/home/sadam/python/python-beta-level-2/score.csv'
+# reader = csv.reader(open(file, 'r'))
+# for row in reader:
+#     print(row)
+
+
+###############################################
+################ Sub-Process #########################
+
+# import subprocess
+
+#
+# subprocess.call('dir', shell=True)
+#
+# output = subprocess.check_output('dir', shell=True)
+# print(output)
+#
+# file = '/home/sadam/python/python-beta-level-2/score.csv'
+# # reader = csv.reader(open(file, 'r'))
+# # for row in reader:
+# #     print(row)
+#
+# output = subprocess.check_output(file, shell=True)
+# print(output)
+
+################ Request #####################
+
+# x = requests.get('https://github.com')
+# print(x)
+# print(x.status_code)
+# # print(x.text)
+# print(x.headers)
+# print(x.headers.get('Date'))
+# print(x.headers['Date'])
+#
+# ######################################################
+#
+# y = requests.get('https://api.github.com/users/Sadam-PK')
+# print(y.status_code)
+# data = y.json()
+# print(data)
+# print('Following', data['following'])
+# print('Followers', data['followers'])
+#
+# ######################################################

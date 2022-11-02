@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f617c9bb-d077-48bc-8804-5e752760ae50" name="Changes" comment="">
+    <list default="true" id="f617c9bb-d077-48bc-8804-5e752760ae50" name="Changes" comment="Database connected,&#10;records insertion and reading">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-beta-level-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python-beta-level-2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,21 @@
       <option name="presentableId" value="Default" />
       <updated>1667052598429</updated>
     </task>
+    <task id="LOCAL-00001" summary="Database connected,&#10;records insertion and reading">
+      <created>1667329777834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667329777834</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Database connected,&#10;records insertion and reading">
+      <created>1667329821466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667329821466</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -57,5 +71,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Database connected,&#10;records insertion and reading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database connected,&#10;records insertion and reading" />
   </component>
 </project>
