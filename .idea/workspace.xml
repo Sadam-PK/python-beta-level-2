@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f617c9bb-d077-48bc-8804-5e752760ae50" name="Changes" comment="Database connected,&#10;records insertion and reading">
+    <list default="true" id="f617c9bb-d077-48bc-8804-5e752760ae50" name="Changes" comment="get api done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -58,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667329821466</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="get api done">
+      <created>1667374998152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667374998152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Database connected,&#10;records insertion and reading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database connected,&#10;records insertion and reading" />
+    <MESSAGE value="get api done" />
+    <option name="LAST_COMMIT_MESSAGE" value="get api done" />
   </component>
 </project>

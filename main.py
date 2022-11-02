@@ -1,4 +1,5 @@
 import requests
+
 # import inspect
 # import os
 # import csv
@@ -256,3 +257,22 @@ import requests
 # print('Followers', data['followers'])
 #
 # ######################################################
+
+########### POST ################
+#
+# myObj = [('Ali', 55), ('Imran', 45), ('Saad', 33)]
+# p = requests.post('http://httpbin.org/post', myObj)
+# print(p.status_code)
+# print(p.text)
+# data = p.json()
+# print(data['form'])
+
+# ##################################
+# c = requests.get('https://datausa.io/api/data?drilldowns=Nation&measures=Population')
+# # print(c.status_code)
+# if c.status_code == 200:
+#     # print(c.text)
+#     # print(c.headers)
+#     data = c.json()
+#     # print(data)
+#     print(data['data'][0]['ID Nation'])
