@@ -1,4 +1,5 @@
-import requests
+# import requests
+# import json
 
 # import inspect
 # import os
@@ -276,3 +277,38 @@ import requests
 #     data = c.json()
 #     # print(data)
 #     print(data['data'][0]['ID Nation'])
+
+##########################################
+########### Extra on API - Digging Stake-overflow ################
+
+#
+# response = requests.get('https://api.stackexchange.com/2.3/questions?order=desc&sort=activity&site=stackoverflow')
+# # print(response.json()['items'])
+# for data in response.json()['items']:
+#     print(data['title'])
+#     # print(data['link'])
+#
+#     ######### Find Questions with No answers #########
+#
+#     # if data['answer_count'] == 0:
+#     #     print(data['title'])
+#
+#     ################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
